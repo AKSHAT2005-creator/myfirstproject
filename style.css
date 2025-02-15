@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: black;
+    border-bottom: 2px solid #ffb400;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav ul li a.active {
+    color: #ffb400;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 span {
+    color: #ffb400;
+}
+
+.hero img {
+    width: 100%; /* or specify a fixed width like 300px */
+    max-width: 300px;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0; /* Remove the rounded corners */
+    display: block;
+    margin: auto;
+}
+
+
+/* Buttons */
+.btn {
+    background-color: #ffb400;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn.secondary {
+    background-color: white;
+    color: black;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about .info {
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+    margin: auto;
+}
+
+.about .btn {
+    background-color: #ffb400;
+}
+
+/* Skills Section */
+.skills {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.skill {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.skill .progress {
+    width: 100%;
+    background-color: grey;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.skill .bar {
+    height: 10px;
+    background-color: #ffb400;
+}
